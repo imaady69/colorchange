@@ -1,0 +1,35 @@
+<html>
+
+<head>
+	<title> Color App by Advait </title>
+<style>
+	* {font-size:50px; }
+	body {background-color:azure; }
+</style>
+</head>
+
+<body>
+
+<center>
+	<h1> Holi Hain ... </h1>
+	
+<script>
+	function colorme()
+	{
+		
+		let colors = ["red","blue","green","orange","white","purple","gray","yellow","pink"];
+		let r = parseInt(Math.random() * colors.length);
+		document.body.style.background = colors[r];
+	}
+		colorme();
+	 setInterval(colorme,2000);
+
+
+</script>
+	
+
+</center>
+
+</body>
+
+</html>
